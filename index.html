@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #navbar {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        /* New CSS Selectors */
+        .nav-bar a {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .article {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        /* Combinators */
+        .article p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .article p:first-child {
+            font-weight: bold;
+        }
+
+        /* Three new div elements with classes */
+        .nav-bar {
+            background-color: #4CAF50;
+            overflow: hidden;
+        }
+
+        .content {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            visibility: visible; /* added visibility property */
+            opacity: 1; /* added opacity property */
+            display: block; /* added display property */
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Adding a website link */
+        .footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <h1>My Road to Website Development</h1>
+        <p>Welcome to my blog!</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar" class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#"><Map></Map></a>
+        <a href="#">School address </a>
+    </div>
+
+    <!-- Article Section -->
+    <div class="article">
+        <h2>Triumph at TeenEagle Contest: A Tale of Medals and Memorable Moments in London </h2>
+        <p>In August 2023, I embarked on a thrilling journey to London to participate in the prestigious TeenEagle Contest, an international platform that brings together talented teens from around the world to showcase their skills in various competitions. The experience turned out to be nothing short of extraordinary, filled with camaraderie, intellectual discussions, and, most importantly, the exhilaration of clinching not one but two medals.
+
+            <!-- ... (rest of the content) ... -->
+
+            As I reflect on my time at the TeenEagle Contest, I am filled with gratitude for the opportunity to learn, compete, and connect with exceptional individuals from around the world. The experience has left an indelible mark on my journey, shaping my perspectives and fueling my aspirations for the future.</p>
+        
+        <p>More content goes here...</p>
+    </div>
+
+    <!-- Three new div elements -->
+    <div class="content">Content goes here...</div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2023 My Simple Website</p>
+        <a href="https://www.orizont.md" target="_blank">Visit my school website</a>
+    </div>
+
+</body>
+</html>
